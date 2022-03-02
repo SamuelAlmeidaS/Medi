@@ -1,10 +1,10 @@
 /** Fazer o menu mobile, seta para voltar ao topo da página */
 
-var menuBar = document.querySelector('.menu_mobile div')
+const bntMobile = document.getElementById('menu-btn');
 
-menuBar.addEventListener('click',(e)=>{
-    e.preventDefault()
-    let menuMobile = document.querySelector('.menu ul')
-    menuMobile.Classlist.add('show-me')
-    alert('Clicando')
-})
+function toggleMenu(){
+    const nav = document.getElementById('nav');
+    nav.classList.toggle('active');
+}
+
+bntMobile.addEventListener('click', toggleMenu);

@@ -1,25 +1,28 @@
-@media screen and (max-width: 700px) {
+@media (max-width: 700px) {
+    #menu-btn {
+        margin-left: 100px;
+        display: inline-block;
+    }
 
-    .container {
-        display: flex;
-    }
-    .logo {
-        margin: 15px 0;
-    }
-    .menu {
+    #menu {
+        display: none;
+        position: absolute;
         width: 100%;
-        
+        top: 120px;
+        right: 0px;
+        z-index: 1000;
+
     }
-    .menu ul { 
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        background: #30aae1;
+    #menu ul li {
+        margin-bottom: 15px;
+    } 
+    #nav.active #menu {
+        display: block;
     }
-    .menu ul li {
-       
-        text-align: right;
-        background: #92d3f175
+
+    #menu a {
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.5);
     }
-    .menu .desktop_menu {display:none;}
 }
