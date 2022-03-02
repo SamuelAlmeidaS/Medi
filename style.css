@@ -43,3 +43,51 @@ a {
 #menu-btn {
     display: none;
 }
+section {
+    width: 100%;
+    height: 100%;
+    background-image: url(./img/img1.jpg);
+}
+
+.container {
+    max-width: 800px;
+    
+}
+
+.txt h1{
+    margin-left: 100px;
+    font-size: 60px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.txt p {
+    margin-top: 25px;
+    margin-left: 100px;
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-box {
+    margin-left: 100px;
+    margin-top: 20px;
+    display: flex;
+}
+.box-info {
+    padding: 25px;
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box-info h2 {
+    margin-bottom: 10px;
+}
+.box-info p {
+    font-size: 15px;
+    margin-bottom: 15px;
+
+}
+.box-info button {
+    padding: 5px;
+    font-size: 10px;
+}
