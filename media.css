@@ -5,6 +5,7 @@
     }
 
     #menu {
+        background: white;
         display: none;
         position: absolute;
         width: 100%;
@@ -25,4 +26,16 @@
         margin: 0 1rem;
         border-bottom: 1px solid rgba(0, 0, 0, 0.5);
     }
+
+    .container  h1{
+        margin: 0;
+        width: 100%;
+    }
+
+    .container-box{
+        display: block;
+        margin: 0;
+        
+    }
+    
 }
