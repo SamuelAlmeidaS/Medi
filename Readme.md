@@ -2,7 +2,6 @@
 # Site Responsivo
 
 ## Tech
-<hr />
 
 * HTML
 * CSS
