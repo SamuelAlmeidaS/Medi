@@ -55,4 +55,12 @@
         width: 100%;
     }
     
+    .info-final {
+        width: 100%;
+    }
+
+    .copy {
+        margin: 0;
+        border-top: none;
+    }
 }
