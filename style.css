@@ -202,3 +202,116 @@ a {
     height: 100px;
     background:#00ace4;
 }
+
+.contato {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-cont {
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.fone {
+    margin-bottom: 15px;
+}
+.fone, .mail {
+    display: flex;
+}
+
+.fone .number{
+    margin-left: 30px;
+}
+
+.test {
+    margin-left: 55px;
+}
+
+
+footer {
+    background: #1E1E1E;
+}
+
+.info-footer {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.plano-saude {
+    background: #39aae1;
+}
+
+.registro-medico {
+    background: #0079c7;
+}
+
+.pagamento-online {
+    background: #2b4c99;
+}
+.plano-saude, .registro-medico, .pagamento-online{
+    color: white;
+    padding: 15px;
+}
+
+.plano-saude h3, .registro-medico h3, .pagamento-online h3 {
+    margin: 10px 0;
+}
+.plano-saude p, .registro-medico p, .pagamento-online p{
+    font-size: 15px;
+}
+
+.info-final {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.clinica-container{
+    margin: 15px 15px 0 0;
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+}
+.clinica-container h3 {
+    color: white;
+    margin-bottom: 20px;
+}
+.clinica-container p {
+    margin-bottom: 15px;
+    color: #858585;
+}
+
+.clinica-container .clinica {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ultimo-post {
+    margin-right: 10px;
+}
+
+.ultimo-post h3, .ultimos-tweets h3 {
+    color: white;
+    margin: 20px 0 15px 0;
+}
+
+.ultimo-post p,.ultimos-tweets p {
+    margin-bottom: 10px;
+    color: #858585;
+}
+
+.ultimo-post span, .ultimos-tweets span {
+    color: #175bc7;
+    
+}
+
+.copy {
+    border-top: 1px solid #858585;
+    color: #858585;
+    margin-top: 50px;
+    margin-left: 140px;
+    font-size: 10px;
+    width: 80%;
+}

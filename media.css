@@ -1,4 +1,8 @@
-@media (max-width: 700px) {
+@media (max-width: 750px) {
+
+    img {
+        margin-left: -25px;
+    }
     #menu-btn {
         margin-left: 100px;
         display: inline-block;
@@ -32,10 +36,23 @@
         width: 100%;
     }
 
+    .container p{
+        margin: 0;
+    }
+
     .container-box{
         display: block;
         margin: 0;
         
+    }
+
+    .container-news {
+        left: 0;
+        display: block;
+    }
+    .info-footer {
+        margin-top: 25px;
+        width: 100%;
     }
     
 }
